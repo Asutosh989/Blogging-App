@@ -1,6 +1,6 @@
 # Blogging-App
 
-This app provides a platform to build your own Blogs, edit them and also view other blogs.
+This app provides a platform to build your own blog posts, edit them and also view other blog posts.
 
 ## To start the app
 
