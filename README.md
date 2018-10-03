@@ -6,7 +6,7 @@ This app provides a platform to build your own Blogs, edit them and also view ot
 
  - Install the required packages
     
-    `pip install -r requirements.txt`
+    `sudo pip install -r requirements.txt`
  
  - Rename `.env-example` to `.env` and make the required changes like updating the following
  
