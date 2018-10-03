@@ -1,6 +1,6 @@
 # Blogging-App
 
-This app provides a platform to build your own Blogs, edit them and also view other blogs.
+This app provides a platform to build your own blog posts, edit them and also view other blog posts.
 
 ## How to Run the Project
 
@@ -14,18 +14,23 @@ This app provides a platform to build your own Blogs, edit them and also view ot
 
 ### Updating the Database 
  - Rename `.env-example` to `.env` and make the required changes like updating the following
- 
-   - "MYSQL_USER" 
-   
-   - "MYSQL_PASSWORD"
+   ````javascript
+     MYSQL_HOST = 'localhost'
+     MYSQL_USER = 'MYSQL user'  <- Change username to access database
+     MYSQL_PASSWORD = '12345'   <- Change password
+     MYSQL_DB = 'blog'
+     MYSQL_CURSORCLASS = 'DictCursor' 
+   ````
    
  
  - To configure the required database in the MySQL Database
  
     `mysql -u <username> -p < blog.sql`
     
+
 ### Running the Application 
-- Start the app by running
+- Start the app by running the following command
+
  
     `python app.py`
  
