@@ -1,6 +1,6 @@
 # Blogging-App
 
-This app provides a platform to build your own Blogs, edit them and also view other blogs.
+This app provides a platform to build your own blog posts, edit them and also view other blog posts.
 
 ## To start the app
 
@@ -19,7 +19,7 @@ This app provides a platform to build your own Blogs, edit them and also view ot
  
     `mysql -u <username> -p < blog.sql`
     
- - Start the app by running
+ - Start the app by running the following command
  
     `python app.py`
  
