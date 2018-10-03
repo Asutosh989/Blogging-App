@@ -22,5 +22,9 @@ This app provides a platform to build your own Blogs, edit them and also view ot
  - Start the app by running
  
     `python app.py`
+    
+     - Start this app by running
+ 
+    `python app.py`
  
 
