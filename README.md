@@ -2,12 +2,17 @@
 
 This app provides a platform to build your own blog posts, edit them and also view other blog posts.
 
-## To start the app
+## How to Run the Project
 
- - Install the required packages
-    
-    `pip install -r requirements.txt`
+### Installing Required Packages
+ - This project requires the installation of third-party libraries. We'll be using `pip` to install those required packages.
+ - To install `pip`, enter:
+   `sudo apt-get -qqy install python-pip`.
  
+ - Next, we'll install the required packages provided in `requirements.txt` by running:
+   `sudo pip install -r requirements.txt`
+
+### Updating the Database 
  - Rename `.env-example` to `.env` and make the required changes like updating the following
    ````javascript
      MYSQL_HOST = 'localhost'
@@ -22,7 +27,10 @@ This app provides a platform to build your own blog posts, edit them and also vi
  
     `mysql -u <username> -p < blog.sql`
     
- - Start the app by running the following command
+
+### Running the Application 
+- Start the app by running the following command
+
  
     `python app.py`
  
