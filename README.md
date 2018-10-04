@@ -33,5 +33,9 @@ This app provides a platform to build your own blog posts, edit them and also vi
 
  
     `python app.py`
+    
+     - Start this app by running
+ 
+    `python app.py`
  
 
