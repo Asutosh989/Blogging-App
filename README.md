@@ -1,3 +1,4 @@
+
 # Blogging-App
 
 This app provides a platform to build your own blog posts, edit them and also view other blog posts.
@@ -13,7 +14,7 @@ This app provides a platform to build your own blog posts, edit them and also vi
    `sudo pip install -r requirements.txt`
 
 ### Updating the Database 
- - Rename `.env-example` to `.env` and make the required changes like updating the following
+ - Rename `.env-example` to `.env` and make the required changes like updating the following:
    ````javascript
      MYSQL_HOST = 'localhost'
      MYSQL_USER = 'MYSQL user'  <- Change username to access database
@@ -29,7 +30,7 @@ This app provides a platform to build your own blog posts, edit them and also vi
     
 
 ### Running the Application 
-- Start the app by running the following command
+- Start the app by running the following command:
 
  
     `python app.py`
